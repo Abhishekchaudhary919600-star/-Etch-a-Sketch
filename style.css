@@ -1,0 +1,72 @@
+#container {
+    display: flex;
+    /*border: 1px solid red; */
+    width: 1890px;
+    height: 1890px;;
+    flex-wrap: wrap;
+
+}
+#h1{
+    display: flex;
+    justify-content: center;
+}
+#span{
+    background-color: aqua;
+    font-size: 50px;
+}
+/* for (let i = 0; i <n; i++){
+    for(let j =0 ; j <n; j++){
+        let div = document.createElement("div");
+        container.appendChild(div);
+        div.style.height = `calc(100%/${n})`;
+        div.style.width = `calc(100%/${n})`;
+        //div.style.border = "1px solid red";
+        div.style.boxSizing = "border-box";
+
+        div.addEventListener("mouseover", () => {
+            div.style.backgroundColor ="red";
+        })
+    }
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers everything horizontally */
+  background-color: #f0f4f8; /* Soft, easy-on-the-eyes grayish blue */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding-top: 30px;
+}
+
+
+
+button {
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  background-color: #3b82f6; /* Modern pleasant blue */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow below button */
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2563eb; /* Darkens slightly when hovered */
+}
+
+/*#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  background-color: white; /* Gives the blank canvas a clean white look */
+  border: 12px solid #333; /* Dark gray frame around the whole board */
+  border-radius: 4px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Makes the board pop off the screen */
+
+*/
